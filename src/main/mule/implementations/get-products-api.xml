@@ -13,9 +13,9 @@ output application/json
 ---
 {
   productID: "322323",
-  productName: "srilatha info tech",
+  productName: "srilatha mulesoft info tech",
   productProvider: "udemy",
-  productDescription: "Complete mule developer course for beginers"
+  productDescription: "Complete mule developer course"
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
