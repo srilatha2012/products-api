@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: product-api
+baseUri: http://localhost:8081/products
+/products:
+  get:
+    description: to get products
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "productID": 322323,
+                "productName": "srilatha info tech",
+                "productProvider": "udemy",
+                "productDescription": "Complete mule developer course"
+              }
+  
